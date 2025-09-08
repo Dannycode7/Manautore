@@ -1,0 +1,599 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: popins sans-serif;
+}
+header{
+     /* background-color: rgb(193, 153, 32); */
+     background-image: url('https://i.pinimg.com/736x/79/11/a8/7911a835d0e02dca6bb4ee1600ad8f7b.jpg');
+     background-size: cover;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-bar.active{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-image: url('https://i.pinimg.com/1200x/c4/6b/39/c46b390db9104c4d7ae2ce5538948974.jpg');
+    background-size: cover;
+    color: white;
+    top: 0%;
+    margin-top: 0%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#bars{
+    display: none;
+    color: white;
+}
+#croix{
+    display: none;
+}
+.logo p{
+    font-size: 1.8rem;
+    margin-top: 4%;
+    color: white;
+}
+nav ul li{
+    display: inline-flex;
+    justify-content: center;
+    width: 70px;
+    margin-top: 2%;
+}
+.nav-icon{
+    display: flex;
+    gap: 10%;
+    color: white;
+    margin-top: 1%;
+}
+.hero-center{
+    display: flex;
+    justify-content:space-around;
+    height:auto;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.hero-one{
+    width: 40%;
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 2%;
+}
+.hero-one p{
+    margin-top: 3%;
+}
+.hero-one button{
+    width: 120px;
+    height: 40px;
+    margin-top: 4%;
+}
+.hero-two{
+    width: 40%;
+    margin-top: 2%;
+    height:400px; 
+}
+.hero-two img{
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.head-icons{
+    /* background-color: rgba(28, 60, 35, 0.815); */
+    background-image: url('https://i.pinimg.com/1200x/c4/6b/39/c46b390db9104c4d7ae2ce5538948974.jpg');
+    background-size: cover;
+    color: white;
+}
+.head-icons-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+.head-icons-one i{
+    font-size: 2rem;
+}
+.head-icons-one{
+    display: flex;
+    border-right: solid aliceblue;
+    font-size: 0.8rem;
+    gap: 5%;
+    padding: 1%;
+    width: 20%;
+    overflow: hidden;
+}
+.flores-center{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+/* img{
+    object-fit: cover;
+} */
+.flores-one{
+    display: flex;
+    gap: 5%;
+    width: 29%;
+    box-shadow:10px 4px 30px rgba(0,0,0,0.1);
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 10px;
+}
+.flores-one img{
+    width:40%;
+    height: 150px;
+}
+.big  a{
+    font-size:2rem;
+    margin-bottom: 2%;
+}
+.flores-jun h4,.flores-jun p,.flores-jun a{
+    margin: 10% 0%;
+    padding: 2%;
+}
+.services{
+    margin-top: 3%;
+}
+.services h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: rgb(4, 70, 4);
+   
+}
+.services-haut{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+.services-haut a{
+    height: 20px;
+    width: 150px;
+    align-items: center;
+}
+.services-haut button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.services-fleurs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#flore {
+  display: flex;
+  flex-wrap: wrap;         
+  justify-content: center; 
+  gap: 20px;            
+  width: 100%;
+  max-width: 1200px;
+}
+
+.big { 
+  width: 290px; 
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  text-align: center;
+}
+
+.big img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.big p {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+
+.bas-services{
+    /* background-color: #2b5f37; */
+    background-image: url('https://i.pinimg.com/1200x/c4/6b/39/c46b390db9104c4d7ae2ce5538948974.jpg');
+}
+.bas-services-center{
+    display: flex;
+    justify-content: center;
+}
+.une{
+    width: 25%;
+    margin-top: 2%;
+    color: white;
+    font-size: 1.7rem;
+}
+.deux-ph{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.ba{
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: 10%;
+    transform: translateX(15px);
+}
+.bi{
+    width: 120px;
+    height:120px ;
+    border-radius: 50px;
+}
+.trois-fin{
+    width: 30%;
+    color: white;
+    margin-top: 2%;
+}
+.plant-one{
+    display: flex;
+    justify-content: center;
+    color: #2b5f37;
+}
+.plant-two{
+    display: flex;
+    justify-content: center;
+}
+.plants-icon{
+    display: flex;
+    justify-content:center ;
+    margin-top: 2%;
+}
+.plants-a{
+    width: 25%;
+}
+.plants-a h2{
+    display: flex;
+    justify-content: center;
+}
+.plants-a i{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 2%;
+}
+.fa-scissors,.fa-wine-bottle,.fa-droplet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #2b5f37; */
+    background-image: url('https://i.pinimg.com/1200x/c4/6b/39/c46b390db9104c4d7ae2ce5538948974.jpg');
+    color: white;
+    width: 60px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 0% 40%;
+}
+.plants-images-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.plants-bonne{
+    width: 25%;
+}
+.wri{
+    width: 33%;
+    height: 150px;
+    box-shadow: 4px 10px 30px rgba(0,0,0,0.15);
+    padding: 2%;
+    background-color: aliceblue;
+}
+.plants-bonne video {
+  width: 330px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.contact {
+  padding: 60px 10%;
+  text-align: center;
+  background: linear-gradient(rgba(180, 50, 50, 0.85), rgba(120, 20, 20, 0.9)),
+              url('https://i.pinimg.com/1200x/5e/43/7a/5e437a181b83dfba6f4dfcf94a89c62d.jpg') center/cover no-repeat;
+              margin-top: 2%;
+  color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #FFD580; /* miel doré */
+}
+.contact p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+.contact-center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+.contact-form {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+.contact-form textarea {
+  resize: none;
+}
+.contact-form button {
+  padding: 14px;
+  border: none;
+  background: #FFD580; 
+  color: #6e1212;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-form button:hover {
+  background: #ffb84d;
+  transform: scale(1.05);
+}
+.contact-info {
+  flex: 1;
+  min-width: 280px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 2%;
+  z-index: none;
+}
+.contact-info h3,.contact-info p,.social-icons a{
+    z-index: none;
+}
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #FFD580;
+}
+.contact-info p {
+  margin: 12px 0;
+  font-size: 1rem;
+}
+.contact-info i {
+  color: #FFD580;
+  margin-right: 10px;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  margin-right: 15px;
+  font-size: 1.6rem;
+  color: #FFD580;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+footer {
+  background: linear-gradient(to right, #6e1212, #a82c2c);
+  color: white;
+  padding: 25px;
+  text-align: center;
+  border-top: 2px solid #FFD580;
+}
+footer p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+footer i {
+  color: #FFD580;
+}
+
+
+.trois-fin button, 
+.plants-bonne button{
+  background: #a82c2c; /* rouge doux */
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+@media (max-width:1000px) {
+    .nav-bar{
+        display: flex;
+        justify-content:space-between;
+        padding: 0 4%;
+    }
+    nav ul{
+        display: none;
+    }
+    #bars{
+        display: block;
+        font-size: 2rem;
+        margin-top: 1%;
+    }
+    #croix{
+        font-size: 2rem;
+        margin-top: 1%;
+        color: white;
+        z-index: 1002;
+    }
+ nav.active ul {
+    display: flex;
+    font-size: 1.5rem; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100vh;
+      background: linear-gradient(to right, #6e1212, #a82c2c);
+    color: white;
+    z-index: 1000;
+    padding: 15px;
+}
+
+    .nav-icon{
+        margin-top: 2%;
+        font-size: 1.5rem;
+        display: none;
+    }
+   .hero-center{
+    flex-wrap: wrap;
+   }
+   .hero-one{
+    width: 100%;
+    padding: 5%;
+    font-size: 1.3rem;
+   }
+   .hero-two{
+    width: 90%;
+    margin-top: 2%;
+    height: 350px;
+    border-radius: 10px;
+   }
+   .head-icons-center{
+    display: flex;
+    justify-content: center;
+   }
+   .head-icons-one{
+    flex-wrap: wrap;
+   }
+   .head-icons-one i{
+    font-size: 1.2rem;
+   }
+   .head-icons-one h3{
+    font-size: 0.5rem;
+   }
+   .head-icons-one p{
+    display: none;
+   }
+   .flores-center{
+    gap: 2%;
+    padding: 5%;
+   }
+   .flores-one{
+    width: 45%;
+   }
+   .flores-jun{
+    width: 45%;
+    font-size: 10px;
+   }
+   .flores-one img{
+    width: 50%;
+    height: 80%;
+   }
+.services-haut{
+    display: flex;
+    justify-content:center;
+    gap: 1%;
+    padding: 4%;
+}
+.services-haut button{
+    width: 100px;
+    height: 35px;
+}
+#flore{
+    width: 100%;
+}
+.big{
+    width: 290px;
+}
+.big img{
+    width: 100%;
+}
+.une{
+    width: 40%;
+    font-size: 1.2rem;
+}
+.deux-ph{
+    width: 40%;
+}
+ .trois-fin{
+    display: none;
+ }
+ .plant-one{
+    padding: 2%;
+ }
+ .plant-two{
+    padding:0% 4%;
+ }
+.plants-icon{
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.plants-a{
+    display: flex;
+    width: 96%;
+}
+.plants-a i{
+    display: flex;
+    justify-content: baseline;
+    width: 30%;
+    padding: 0%;
+    margin: 1% 2%;
+    height: 80%;
+}
+.plant-B{
+    width: 60%;
+    margin: 0% 10%;
+}
+.plants-a img{
+    width:100%;
+}
+.plants-images-center{
+    flex-wrap: wrap;
+}
+.plants-bonne{
+    width: 90%;
+}
+.plants-bonne img{
+    object-fit: cover;
+}
+.plants-bonne video{
+    width: 99%;
+}
+.contact{
+    margin-top: 8%;
+}
+.contact-info{
+    margin-top: 5%;
+}
+.wri{
+    width: 85%;
+    height: 200px;
+}
+}
