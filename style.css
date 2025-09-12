@@ -11,6 +11,9 @@ header{
 .nav-bar{
     display: flex;
     justify-content: space-around;
+    background-image: url('https://i.pinimg.com/736x/78/31/4c/78314cb6f1496312f6ab2b144b0f80d4.jpg');
+    background-size: cover;
+    background-color: rgba(0,0,0,0.2);
 }
 .logo img{
     width: 50px;
@@ -162,6 +165,7 @@ a{
     height: 220px;
     box-shadow:0px 4px 6px rgba(0,0,0,0.1);
     margin-top: 4%;
+    border-radius: 10px;
 }
 .cartes img{
     width: 100%;
@@ -221,13 +225,13 @@ a{
     }
     .hero{
         margin: 10% 5%;
-        max-height: 80%;
         backdrop-filter: blur(4);
         background-color: rgba(0,0,0,0.5);
     }
     .hero-write{
         padding: 2%;
         height: auto;
+        max-height: 80%;
     }
     .about-center{
         flex-wrap: wrap;
