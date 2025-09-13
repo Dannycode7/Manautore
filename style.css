@@ -312,7 +312,7 @@ footer i {
 }
 @media (max-width:1000px) {
     header{
-        height: 60vh;
+         max-width: 80vh;
     }
     .nav-bar{
        display: flex;
@@ -406,4 +406,5 @@ footer i {
     margin-top: 10%;
    }
 }
+
 
