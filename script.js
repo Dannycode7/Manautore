@@ -58,7 +58,7 @@ function afficherproduits(){
         <div class="prod-write">
         <h1>${prod.name}</h1>
         <p>${prod.description}</p>
-        <a href="#"><button>Commander</button></a>
+        <a href="https://wa.me/243841165856" target="_blank"><button>Commander</button></a>
         </div>
         </div>`;
         produits.appendChild(cartes)
