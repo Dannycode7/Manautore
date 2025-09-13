@@ -176,6 +176,7 @@ a{
 .cartes h1,.cartes p{
     display: flex;
     justify-content: center;
+    font-size:1.8rem;
 }
 .cartes img{
     width: 100%;
@@ -406,5 +407,6 @@ footer i {
     margin-top: 10%;
    }
 }
+
 
 
